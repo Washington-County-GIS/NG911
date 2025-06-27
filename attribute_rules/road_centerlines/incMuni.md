@@ -5,8 +5,8 @@ buffer is created around the test line, and rotated slightly to the left or righ
 start point. From there a new list of intersecting features is produced, and the one with the greatest area of overlap 
 is selected as the right or left municipality.
 
-Note that the Arcade Rotate function rotates counterclockwise when a positive angle is specified, and clockwise for negative
-values.
+Note that this script can be repurposed for any of the attributes for right and left side of road, such as PostComm, MuniCode, ESN, MSAGComm... simply swap out the feature 
+pointed to by "FeatureSetByName" with the appropriate boundary layer. 
 
 ## Settings
 **Field:** IncMuni_L, IncMuni_R  
