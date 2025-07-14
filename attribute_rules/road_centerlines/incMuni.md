@@ -126,6 +126,10 @@ results. Test the script results along boundaries, paying special attention to t
 test attribute rules on copies of your data before full implementation. These rules have only been tested on the features 
 belonging to Washington County, WI's NG911 dataset. 
 
+If you use this for finding right and left ESN, you may want to replace the error messages with rwo different three-digit
+numbers that are not in your domain. eg. 000 and 111. This way you can filter for errors after calculating, but the script
+will still run in cases where there isn't a value for your county on one or both sides of the road
+
 
 ## Additional Reading
 Arcade Rotate function reference: https://developers.arcgis.com/arcade/function-reference/geometry_functions/#rotate
