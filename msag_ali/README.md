@@ -14,3 +14,11 @@ postal abbreviations with "Trunk" added. [source](https://pe.usps.com/text/pub28
 
 
 ## Notes
+In Wisconsin, the statewide method for checking address accuracy between Land Information offices and PSAPs is to compare GIS data to the Master Street Address Guide (MSAG), 
+the legacy system used by PSAPs to document roads and address ranges. In counties where the MSAG is still in use, approved users submit edits via a web platform maintained 
+by telephone service companies. These updates get pushed to the Automatic Location Identification (ALI). The ALI is not typically edited directly by PSAPs.
+
+
+Syncronizing GIS data with the MSAG is useful for identifying gaps in the address data on either side, except in cases where the *CAD* does not perfectly match the MSAG. 
+Further scripts for comparing GIS data to CAD exports are in development. Keep this in mind as you allocate time and resources to MSAG-GIS synchronization. The end goal 
+should be accurate address data in Land Information that matches what PSAPs use for dispatch and other purposes. 
