@@ -8,6 +8,7 @@ postal abbreviations with "Trunk" added. [source](https://pe.usps.com/text/pub28
 * <ins>gis_prep:</ins> Jupyter Notebook with scripts for creating match keys from GIS SSAP data
 * <ins>msag_prep:</ins> Jupyter Notebook with scripts for modifying MSAG entries to facilitate matching to GIS
 * <ins>msag_sync:</ins>Jupyter Notebook with scripts for matching the GIS SSAP data to MSAG
+* <ins>msag_syncToALI:</ins>Jupyter Notebook with scripts for matching the generated MSAG/SSAP sync report to the ALI. Helpful for identifying bottlenecks to edits via Intrado
 
 ## Overview
 ![Overview](https://github.com/Washington-County-GIS/NG911/blob/main/msag_ali/sync_overview.png)
